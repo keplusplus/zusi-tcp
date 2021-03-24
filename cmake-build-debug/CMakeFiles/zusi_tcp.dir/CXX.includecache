@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/dev/zusi-tcp/main.cpp
+iostream
+-
+iomanip
+-
+src/SysSocket.h
+/mnt/d/dev/zusi-tcp/src/SysSocket.h
+src/Attribute.h
+/mnt/d/dev/zusi-tcp/src/Attribute.h
+
+/mnt/d/dev/zusi-tcp/src/Attribute.h
+Socket.h
+/mnt/d/dev/zusi-tcp/src/Socket.h
+
+/mnt/d/dev/zusi-tcp/src/Socket.h
+
+/mnt/d/dev/zusi-tcp/src/SysSocket.h
+sys/socket.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+string
+-
+Socket.h
+/mnt/d/dev/zusi-tcp/src/Socket.h
+
